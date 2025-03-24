@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+
+# .gitignore
+build/
+sdkconfig.defaults*
+sdkconfig.old
+.vscode/
+managed_components/
+pytest*
+dependencies*
+esp_idf_*
+.devcontainer/
+Kconfig*
